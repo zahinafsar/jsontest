@@ -3,21 +3,22 @@
         "id": 1,
         "name": "VS Code",
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png",
-        "download": "25123515",
-        "rating": 4.8,
-        "description": "dfsjihmfxnlfsdhgx,adn;asdngffcsmnxhdfuadhgasduabgvb;ajbhgvauibv;buiabhvuBNDvubaubdssvasvtgvbcjsutyvbchgxvcyugvbv",
+        "download": "25123",
+        "rating": 2.5,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
-            "sudo apt-get update",
-            "sudo apt-get install vs-code"
+            "sudo -s",
+            "apt-get update",
+            "apt-get install vs-code"
         ]
     },
     {
         "id": 2,
         "name": "Chrome",
         "src": "https://4.bp.blogspot.com/-SAlsUK_Hwkw/TYGj8pt-kbI/AAAAAAAAAqE/blsfUwJWdbU/s1600/Google%2BChrome%2Bicon%2Bnew.png",
-        "download": "25123515",
-        "rating": 4.8,
-        "description": "dfsjihmfxnlfsdhgx,adn;asdngffcsmnxhdfuadhgasduabgvb;ajbhgvauibv;buiabhvuBNDvubaubdssvasvtgvbcjsutyvbchgxvcyugvbv",
+        "download": "223515",
+        "rating": 4.5,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "sudo apt-get update",
             "sudo apt-get install vs-code"
@@ -27,9 +28,9 @@
         "id": 3,
         "name": "Figma",
         "src": "https://cdn.iconscout.com/icon/free/png-256/figma-1693589-1442630.png",
-        "download": "25123515",
+        "download": "25115",
         "rating": 4.8,
-        "description": "dfsjihmfxnlfsdhgx,adn;asdngffcsmnxhdfuadhgasduabgvb;ajbhgvauibv;buiabhvuBNDvubaubdssvasvtgvbcjsutyvbchgxvcyugvbv",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "sudo apt-get update",
             "sudo apt-get install vs-code"
@@ -41,7 +42,7 @@
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png",
         "download": "25123515",
         "rating": 4.8,
-        "description": "dfsjihmfxnlfsdhgx,adn;asdngffcsmnxhdfuadhgasduabgvb;ajbhgvauibv;buiabhvuBNDvubaubdssvasvtgvbcjsutyvbchgxvcyugvbv",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "sudo apt-get update",
             "sudo apt-get install vs-code"
@@ -53,7 +54,7 @@
         "src": "https://4.bp.blogspot.com/-SAlsUK_Hwkw/TYGj8pt-kbI/AAAAAAAAAqE/blsfUwJWdbU/s1600/Google%2BChrome%2Bicon%2Bnew.png",
         "download": "25123515",
         "rating": 4.8,
-        "description": "dfsjihmfxnlfsdhgx,adn;asdngffcsmnxhdfuadhgasduabgvb;ajbhgvauibv;buiabhvuBNDvubaubdssvasvtgvbcjsutyvbchgxvcyugvbv",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "sudo apt-get update",
             "sudo apt-get install vs-code"
@@ -65,7 +66,7 @@
         "src": "https://cdn.iconscout.com/icon/free/png-256/figma-1693589-1442630.png",
         "download": "25123515",
         "rating": 4.8,
-        "description": "dfsjihmfxnlfsdhgx,adn;asdngffcsmnxhdfuadhgasduabgvb;ajbhgvauibv;buiabhvuBNDvubaubdssvasvtgvbcjsutyvbchgxvcyugvbv",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "sudo apt-get update",
             "sudo apt-get install vs-code"
@@ -77,7 +78,7 @@
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png",
         "download": "25123515",
         "rating": 4.8,
-        "description": "dfsjihmfxnlfsdhgx,adn;asdngffcsmnxhdfuadhgasduabgvb;ajbhgvauibv;buiabhvuBNDvubaubdssvasvtgvbcjsutyvbchgxvcyugvbv",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "sudo apt-get update",
             "sudo apt-get install vs-code"
@@ -89,7 +90,7 @@
         "src": "https://4.bp.blogspot.com/-SAlsUK_Hwkw/TYGj8pt-kbI/AAAAAAAAAqE/blsfUwJWdbU/s1600/Google%2BChrome%2Bicon%2Bnew.png",
         "download": "25123515",
         "rating": 4.8,
-        "description": "dfsjihmfxnlfsdhgx,adn;asdngffcsmnxhdfuadhgasduabgvb;ajbhgvauibv;buiabhvuBNDvubaubdssvasvtgvbcjsutyvbchgxvcyugvbv",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "sudo apt-get update",
             "sudo apt-get install vs-code"
@@ -101,7 +102,7 @@
         "src": "https://cdn.iconscout.com/icon/free/png-256/figma-1693589-1442630.png",
         "download": "25123515",
         "rating": 4.8,
-        "description": "dfsjihmfxnlfsdhgx,adn;asdngffcsmnxhdfuadhgasduabgvb;ajbhgvauibv;buiabhvuBNDvubaubdssvasvtgvbcjsutyvbchgxvcyugvbv",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "sudo apt-get update",
             "sudo apt-get install vs-code"
