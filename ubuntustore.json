@@ -243,5 +243,41 @@
             "sudo apt-get update",
             "sudo apt-get install postgresql postgresql-contrib"
         ]
+    },
+    {
+        "id": 17,
+        "name": "Spotify",
+        "src": "https://www.pngitem.com/pimgs/m/148-1487614_spotify-logo-small-spotify-logo-transparent-hd-png.png",
+        "download": "123456789",
+        "rating": 4.0,
+        "category":"Media",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "command": [
+            "sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90",
+            "echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list",
+            "sudo apt-get update",
+            "sudo apt-get install spotify-client"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Android Studio",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Breezeicons-apps-48-android-studio.svg/600px-Breezeicons-apps-48-android-studio.svg.png",
+        "download": "123456789",
+        "rating": 5.0,
+        "category":"Media",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "command": [
+            "sudo add-apt-repository ppa:webupd8team/java",
+            "sudo apt update",
+            "sudo apt-get install java-common oracle-java8-installer",
+            "sudo apt-get install oracle-java8-set-default",
+            "source /etc/profile",
+            "sudo add-apt-repository ppa:maarten-fonville/android-studio",
+            "sudo apt update",
+            "sudo apt install android-studio",
+            "/opt/android-studio/bin/studio.sh"
+
+        ]
     }
 ]
