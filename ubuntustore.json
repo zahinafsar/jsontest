@@ -120,16 +120,22 @@
     },
     {
         "id": 9,
-        "name": "NodeJS",
-        "src": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "name": "DBeaver",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DBeaver_logo.svg/1200px-DBeaver_logo.svg.png",
         "download": "123456789",
-        "rating": 5.0,
-        "category":"Programming",
+        "rating": 3.0,
+        "category":"Tools",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
-            "sudo apt-get install curl",
-            "curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -",
-            "sudo apt-get install nodejs"
+            "apt-get update -y",
+            "add-apt-repository ppa:linuxuprising/java",
+            "apt-get update -y",
+            "apt-get install oracle-java11-installer -y",
+            "wget -O - https://dbeaver.io/debs/dbeaver.gpg.key | apt-key add -",
+            "echo 'deb https://dbeaver.io/debs/dbeaver-ce /' | tee /etc/apt/sources.list.d/dbeaver.list",
+            "apt-get update -y",
+            "apt-get install dbeaver-ce -y",
+            "apt policy  dbeaver-ce",
         ]
     },
     {
