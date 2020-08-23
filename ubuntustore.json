@@ -265,7 +265,7 @@
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Breezeicons-apps-48-android-studio.svg/600px-Breezeicons-apps-48-android-studio.svg.png",
         "download": "123456789",
         "rating": 5.0,
-        "category":"Text Editor/IDE",
+        "category":"IDE",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "sudo add-apt-repository ppa:webupd8team/java",
