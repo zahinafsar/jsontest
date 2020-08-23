@@ -92,7 +92,7 @@
     },
     {
         "id": 7,
-        "name": "Gipm",
+        "name": "Inkscape",
         "src": "https://media.inkscape.org/static/images/inkscape-logo.svg",
         "download": "123456789",
         "rating": 4.0,
@@ -279,5 +279,20 @@
             "/opt/android-studio/bin/studio.sh"
 
         ]
-    }
+    },
+    {
+        "id": 19,
+        "name": "PHP 7",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShfR_stoclgjczU-HyUgcRRhH0gTRiWF19aW4RSuBDip1n73ye9oZI1lmud2hCmpq2lbLrdd4sBOP5CahL1K0MLg&usqp=CAU&ec=45690271",
+        "download": "123456789",
+        "rating": 3.5,
+        "category":"Programming",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "command": [
+            "apt-get update && apt-get upgrade",
+            "sudo apt-get install php libapache2-mod-php",
+            "sudo systemctl restart apache2",
+            "php -v"
+        ]
+    },
 ]
