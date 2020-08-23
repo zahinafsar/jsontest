@@ -8,47 +8,21 @@
         "category":"IDE",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
-            "sudo -s",
-            "apt-get update",
-            "apt-get install vs-code"
+            "sudo apt update",
+            "sudo apt install software-properties-common apt-transport-https wget",
+            "wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -",
+            "sudo add-apt-repository 'deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main'",
+            "sudo apt update",
+            "sudo apt install code"
         ]
     },
     {
         "id": 2,
-        "name": "Chrome",
-        "src": "https://4.bp.blogspot.com/-SAlsUK_Hwkw/TYGj8pt-kbI/AAAAAAAAAqE/blsfUwJWdbU/s1600/Google%2BChrome%2Bicon%2Bnew.png",
-        "download": "1234567",
-        "rating": 4.5,
-        "category":"Internet",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-        "command": [
-            "clear",
-            "sudo -s",
-            "apt-get update",
-            "apt-get install vs-code",
-            "code"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Figma",
-        "src": "https://cdn.iconscout.com/icon/free/png-256/figma-1693589-1442630.png",
-        "download": "123456",
-        "rating": 3.5,
-        "category":"Graphics",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-        "command": [
-            "sudo apt-get update",
-            "sudo apt-get install vs-code"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Node JS",
-        "src": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "name": "Sublime Text",
+        "src": "https://avatars3.githubusercontent.com/u/684879?s=400&amp;v=4",
         "download": "123456789",
         "rating": 4.5,
-        "category":"Programming",
+        "category":"IDE",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -",
@@ -59,111 +33,209 @@
         ]
     },
     {
-        "id": 5,
-        "name": "MySQL",
-        "src": "https://appstore.edgenexus.io/wp-content/uploads/2018/09/mysql-logo.png",
-        "download": "1234",
-        "rating": 5,
-        "category":"Database",
+        "id": 3,
+        "name": "Brackets",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brackets_Icon.svg/1200px-Brackets_Icon.svg.png",
+        "download": "123456789",
+        "rating": 4.0,
+        "category":"IDE",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
+            "sudo add-apt-repository ppa:webupd8team/brackets",
             "sudo apt-get update",
-            "sudo apt-get install vs-code"
+            "sudo apt-get install brackets"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Nodepad++",
+        "src": "https://notepad-plus-plus.org/images/logo.svg",
+        "download": "123456789",
+        "rating": 3.0,
+        "category":"IDE",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "command": [
+            "sudo add-apt-repository ppa:notepadqq-team/notepadqq",
+            "sudo apt update",
+            "sudo apt install notepadqq -y"
+
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Figma",
+        "src": "https://i.pinimg.com/originals/a5/58/b4/a558b426cb8973523f37bbed94cf0f09.png",
+        "download": "123456789",
+        "rating": 5.0,
+        "category":"Graphics",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "command": [
+            "sudo add-apt-repository ppa:chrdevs/figma",
+            "sudo apt update",
+            "sudo apt-key adv --recv-key --keyserver keyserver.ubuntu.com 70F3445E637983CC",
+            "sudo apt install figma-linux -y"
         ]
     },
     {
         "id": 6,
-        "name": "Grub Customizer",
-        "src": "https://launchpadlibrarian.net/393213414/64x64.png",
-        "download": "123",
-        "rating": 3,
-        "category":"Tools",
+        "name": "Gipm",
+        "src": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/73573316/original/f53af2738e1b7655053e4e7218f887bb8da9ebff/make-a-logo-using-gimp.jpg",
+        "download": "123456789",
+        "rating": 4.5,
+        "category":"Graphics",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
-            "sudo apt-get update",
-            "sudo apt-get install vs-code"
+            "sudo add-apt-repository ppa:otto-kesselgulasch/gimp",
+            "sudo apt update",
+            "sudo apt install gimp"
         ]
     },
-    {   
+    {
         "id": 7,
-        "name": "VS Code",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png",
-        "download": "12345678",
-        "rating": 5,
-        "category":"IDE",
+        "name": "Gipm",
+        "src": "https://media.inkscape.org/static/images/inkscape-logo.svg",
+        "download": "123456789",
+        "rating": 4.0,
+        "category":"Graphics",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
-            "sudo -s",
-            "apt-get update",
-            "apt-get install vs-code"
+            "sudo add-apt-repository ppa:inkscape.dev/stable-daily",
+            "sudo apt-get update",
+            "sudo apt-get install inkscape"
         ]
     },
     {
         "id": 8,
-        "name": "Chrome",
-        "src": "https://4.bp.blogspot.com/-SAlsUK_Hwkw/TYGj8pt-kbI/AAAAAAAAAqE/blsfUwJWdbU/s1600/Google%2BChrome%2Bicon%2Bnew.png",
-        "download": "1234567",
-        "rating": 4.5,
-        "category":"Internet",
+        "name": "NodeJS",
+        "src": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "download": "123456789",
+        "rating": 5.0,
+        "category":"Programming",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
-            "clear",
-            "sudo -s",
-            "apt-get update",
-            "apt-get install vs-code",
-            "code"
+            "sudo apt-get install curl",
+            "curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -",
+            "sudo apt-get install nodejs"
         ]
     },
     {
         "id": 9,
-        "name": "Figma",
-        "src": "https://cdn.iconscout.com/icon/free/png-256/figma-1693589-1442630.png",
-        "download": "123456",
-        "rating": 3.5,
-        "category":"Graphics",
+        "name": "NodeJS",
+        "src": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "download": "123456789",
+        "rating": 5.0,
+        "category":"Programming",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
-            "sudo apt-get update",
-            "sudo apt-get install vs-code"
+            "sudo apt-get install curl",
+            "curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -",
+            "sudo apt-get install nodejs"
         ]
     },
     {
         "id": 10,
-        "name": "Node JS",
-        "src": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "name": "Django",
+        "src": "https://cdn.freebiesupply.com/logos/thumbs/2x/django-community-logo.png",
+        "download": "123456789",
+        "rating": 5.0,
+        "category":"Programming",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "command": [
+            "sudo apt-get install python3 python3-pip",
+            "pip3 install Django"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "dotNet Core3 SDK",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png",
         "download": "123456789",
         "rating": 4.5,
         "category":"Programming",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
+            "wget https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb",
+            "sudo dpkg -i packages-microsoft-prod.deb",
             "sudo apt-get update",
-            "sudo apt-get install vs-code"
-        ]
-    },
-    {
-        "id": 11,
-        "name": "MySQL",
-        "src": "https://appstore.edgenexus.io/wp-content/uploads/2018/09/mysql-logo.png",
-        "download": "1234",
-        "rating": 5,
-        "category":"Database",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-        "command": [
+            "sudo apt-get install -y apt-transport-https",
             "sudo apt-get update",
-            "sudo apt-get install vs-code"
+            "sudo apt-get install -y dotnet-sdk-3.1"
         ]
     },
     {
         "id": 12,
-        "name": "Grub Customizer",
-        "src": "https://launchpadlibrarian.net/393213414/64x64.png",
-        "download": "123",
-        "rating": 3,
-        "category":"Tools",
+        "name": "Chrome",
+        "src": "https://4.bp.blogspot.com/-SAlsUK_Hwkw/TYGj8pt-kbI/AAAAAAAAAqE/blsfUwJWdbU/s1600/Google%2BChrome%2Bicon%2Bnew.png",
+        "download": "123456789",
+        "rating": 5.0,
+        "category":"Internet",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "command": [
+            "wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -",
+            "sudo sh -c \"echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' >> /etc/apt/sources.list.d/google-chrome.list\"",
+            "sudo apt update",
+            "sudo apt install google-chrome-stable"    
+        ]
+    },
+    {
+        "id": 13,
+        "name": "MySQL",
+        "src": "https://appstore.edgenexus.io/wp-content/uploads/2018/09/mysql-logo.png",
+        "download": "123456789",
+        "rating": 5.0,
+        "category":"Database",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         "command": [
             "sudo apt-get update",
-            "sudo apt-get install vs-code"
+            "sudo apt-get install mysql-server"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Microsoft SQL",
+        "src": "https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg",
+        "download": "123456789",
+        "rating": 5.0,
+        "category":"Database",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "command": [
+            "wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -",
+            "sudo add-apt-repository '$(wget -qO- https://packages.microsoft.com/config/ubuntu/18.04/mssql-server-2019.list)'",
+            "sudo apt-get update",
+            "sudo apt-get install -y mssql-server",
+            "sudo /opt/mssql/bin/mssql-conf setup"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "MongoDB",
+        "src": "https://cdn.iconscout.com/icon/free/png-512/mongodb-5-1175140.png",
+        "download": "123456789",
+        "rating": 4.5,
+        "category":"Database",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "command": [
+            "sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 4B7C549A058F8B6B",
+            "echo 'deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.2 multiverse' | sudo tee /etc/apt/sources.list.d/mongodb.list",
+            "sudo apt update",
+            "sudo apt install mongodb-org",
+            "mongod --version"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "PostgreSQL",
+        "src": "https://assets.puzzlefactory.pl/puzzle/205/866/original.jpg",
+        "download": "123456789",
+        "rating": 4.0,
+        "category":"Database",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "command": [
+            "sudo apt-get install wget ca-certificates",
+            "wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -",
+            "sudo sh -c \"echo 'deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main' >> /etc/apt/sources.list.d/pgdg.list\"",
+            "sudo apt-get update",
+            "sudo apt-get install postgresql postgresql-contrib"
         ]
     }
 ]
